@@ -13,4 +13,5 @@
 .file /tmp/iamafile prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 .ln -s /bin/ls --ls-- Creates a symbolic link to /bin/ls, named __ls__. 
 .cp -un *.html ../ Copyies HTML files.
-.mv [[:upper:]]* /tmp/u moves all files beginning with an uppercase letter to the directory /tmp/u. 
+.mv [[:upper:]]* /tmp/u moves all files beginning with an uppercase letter to the directory /tmp/u.
+.rm *~ deletes all files in the current working directory that end with the character ~. 
