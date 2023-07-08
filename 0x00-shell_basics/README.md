@@ -14,4 +14,5 @@
 .ln -s /bin/ls --ls-- Creates a symbolic link to /bin/ls, named __ls__. 
 .cp -un *.html ../ Copyies HTML files.
 .mv [[:upper:]]* /tmp/u moves all files beginning with an uppercase letter to the directory /tmp/u.
-.rm *~ deletes all files in the current working directory that end with the character ~. 
+.rm *~ deletes all files in the current working directory that end with the character ~.
+.mkdir -p welcome/to/school creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory. 
